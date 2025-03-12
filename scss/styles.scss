@@ -28,14 +28,27 @@
     bottom: 50px;
 }
 
+.about-img {
+    width: 250px
+    
+}
+
+.text-about {
+    text-align: justify;
+}
+
 @media(max-width: 767px) {
     .header .social i {
         font-size: 30px;
     }
-}
-
-@media(max-width: 767px) {
+    
+    
     .header .roles span  {
         font-size: 17px;
+    }
+    
+    .about-content {
+        flex-direction: column;
+        padding: 12px;
     }
 }
