@@ -30,7 +30,17 @@
 
 .about-img {
     width: 250px
-    
+}
+
+.project {
+    transition: 0.5s;
+    width: 25rem;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.85;
 }
 
 .text-about {
@@ -41,15 +51,13 @@
     .header .social i {
         font-size: 30px;
     }
-    
-    
-    .header .roles span  {
+
+    .header .roles span {
         font-size: 17px;
     }
-    
+
     .about-content {
         flex-direction: column;
         padding: 12px;
     }
 }
-
