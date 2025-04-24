@@ -61,6 +61,13 @@
   }
 }
 
+.contact-block {
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 999;
+}
+
 .whatsapp-card {
   display: flex;
   flex-direction: column;
@@ -70,17 +77,15 @@
   border-radius: 5px;
   text-align: center;
   backdrop-filter: blur(3px);
-  position: fixed;
+  position: absolute;
   bottom: 40px;
   left: 40px;
   z-index: 999;
 
-  /* Efecto neón */
   box-shadow:
     0 0 35px #25D366;
 }
 
-/* Responsive para móviles */
 @media (max-width: 576px) {
   .whatsapp-card {
     position: relative;
