@@ -73,7 +73,7 @@
   backdrop-filter: blur(3px);
   margin-bottom: 25px;
   box-shadow:
-    0 0 35px #25d3657a;
+    0 0 15px #25d3657a;
 }
 
 @media (max-width: 576px) {
