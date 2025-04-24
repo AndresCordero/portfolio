@@ -50,11 +50,73 @@
   .header .social i {
     font-size: 30px;
   }
+
   .header .roles span {
     font-size: 17px;
   }
+
   .about-content {
     flex-direction: column;
     padding: 12px;
   }
+}
+
+.whatsapp-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13px;
+  border: 1px solid #d1fae5;
+  border-radius: 5px;
+  text-align: center;
+  backdrop-filter: blur(3px);
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  z-index: 999;
+
+  /* Efecto neón */
+  box-shadow:
+    0 0 35px #25D366;
+}
+
+/* Responsive para móviles */
+@media (max-width: 576px) {
+  .whatsapp-card {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #25D366;
+  }
+}
+
+
+.whatsapp-card h3 {
+  margin-bottom: 2px;
+  color: #ffffff;
+  font-weight: 10px;
+  font-size: larger;
+}
+
+.whatsapp-card button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border: solid 1px;
+  border-color: #d1fae5;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 8px 10px;
+}
+
+.whatsapp-card button:hover {
+  background-color: #1ebe5d;
+}
+
+.whatsapp-card i {
+  color: #1ebe5d;
+  font-size: 54px;
 }
